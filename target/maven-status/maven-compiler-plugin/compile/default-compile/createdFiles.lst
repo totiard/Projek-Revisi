@@ -1,0 +1,5 @@
+com\revisi\toti\service\KelasService.class
+com\revisi\toti\service\WaliKelasService.class
+com\revisi\toti\controller\JurusanController.class
+com\revisi\toti\service\JurusanService.class
+com\revisi\toti\controller\SiswaController.class

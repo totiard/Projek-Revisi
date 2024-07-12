@@ -1,0 +1,17 @@
+D:\toti\src\main\java\com\revisi\toti\controller\JurusanController.java
+D:\toti\src\main\java\com\revisi\toti\controller\KelasController.java
+D:\toti\src\main\java\com\revisi\toti\controller\SiswaController.java
+D:\toti\src\main\java\com\revisi\toti\controller\WaliKelasController.java
+D:\toti\src\main\java\com\revisi\toti\model\Jurusan.java
+D:\toti\src\main\java\com\revisi\toti\model\Kelas.java
+D:\toti\src\main\java\com\revisi\toti\model\Siswa.java
+D:\toti\src\main\java\com\revisi\toti\model\WaliKelas.java
+D:\toti\src\main\java\com\revisi\toti\repository\JurusanRepository.java
+D:\toti\src\main\java\com\revisi\toti\repository\KelasRepository.java
+D:\toti\src\main\java\com\revisi\toti\repository\SiswaRepository.java
+D:\toti\src\main\java\com\revisi\toti\repository\WaliKelasRepository.java
+D:\toti\src\main\java\com\revisi\toti\service\JurusanService.java
+D:\toti\src\main\java\com\revisi\toti\service\KelasService.java
+D:\toti\src\main\java\com\revisi\toti\service\SiswaService.java
+D:\toti\src\main\java\com\revisi\toti\service\WaliKelasService.java
+D:\toti\src\main\java\com\revisi\toti\TotiApplication.java

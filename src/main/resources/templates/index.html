@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* CSS tambahan jika diperlukan */
+      .menu-item {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Dashboard</h1>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Siswa</h5>
+              <p class="card-text text-center">Kelola data siswa</p>
+              <a th:href="@{/siswa}" class="btn btn-primary btn-block">Masuk</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Kelas</h5>
+              <p class="card-text text-center">Kelola kelas</p>
+              <a href="/kelas.html" class="btn btn-primary btn-block">Masuk</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Jurusan</h5>
+              <p class="card-text text-center">Kelola jurusan</p>
+              <a href="/jurusan.html" class="btn btn-primary btn-block"
+                >Masuk</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Wali Kelas</h5>
+              <p class="card-text text-center">Kelola wali kelas</p>
+              <a href="/walikelas.html" class="btn btn-primary btn-block"
+                >Masuk</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-4idWmLIbtJGUQ6/R8BEVCg6cRtK4N7UJ5TXm1xGvGK6P1q7tc4wo1j9cpMT0Y2Z+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh/jFcGi4h1CXTVAhI7fD5P1RBss5SxmjGkfo"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
